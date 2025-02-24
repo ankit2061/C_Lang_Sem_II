@@ -57,7 +57,7 @@ This repository is open-source and follows the **MIT License**.
 
 ---
 🔗 **Connect with Me**  
-📧 Email: your-email@example.com  
+📧 Email: codingjourney18@gmail.com  
 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
 📷 Instagram: [@yourhandle](https://instagram.com/yourhandle)
 

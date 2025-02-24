@@ -15,7 +15,7 @@ int main(){
       x=-c/b;
       printf("There is one real root: %f",x);
   }
-  if(d<0){
+  else if(d<0){
       printf("No real root");
   }
   else{
