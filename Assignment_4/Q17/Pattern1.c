@@ -25,4 +25,13 @@ int main()
     printf ("\n");
     a++;
   }
+  return 0;
 }
+/*
+The pattern:
+    1
+   232
+  34543
+ 4567654
+567898765
+*/
