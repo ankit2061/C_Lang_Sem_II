@@ -8,7 +8,6 @@ int main(){
         r=a;
     else
     r=b;
-    
     while(r>0){
         if(a%r==0 &&b%r==0){
             break;

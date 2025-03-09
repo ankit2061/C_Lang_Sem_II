@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main(){
-    int i,j,k,r,k1;
+    int i,j,r;
     printf("Enter the number of rows: ");
     scanf("%d",&r);
     printf("The pattern:\n");
     for(i=r;i>=1;i--){
-        for(j=i;j>0;j--){
+        for(j=i;j>1;j--){
             printf("   ");
         }
-        for(k=1;k<=(r-i+1);k++){
+        for(j=1;j<=(r-i+1);j++){
             printf(" * ");
         }
-        for(k1=0;k1<(r-i);k1++){
+        for(j=0;j<(r-i);j++){
             printf(" * ");
         }
         printf("\n");
@@ -21,9 +21,9 @@ int main(){
 /*
 Enter the number of rows: 5
 The pattern:
-                * 
-             *  *  * 
-          *  *  *  *  * 
-       *  *  *  *  *  *  * 
-    *  *  *  *  *  *  *  *  * 
+             * 
+          *  *  * 
+       *  *  *  *  * 
+    *  *  *  *  *  *  * 
+ *  *  *  *  *  *  *  *  * 
 */
