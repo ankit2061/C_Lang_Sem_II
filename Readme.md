@@ -35,7 +35,7 @@ To compile and run these programs, you need:
 ## 🔧 How to Run
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/C-Programs-Sem2.git
+   git clone https://github.com/ankit2061/C_Lang_Sem_II.git
    ```
 2. Navigate to the desired assignment directory:
    ```sh
