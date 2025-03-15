@@ -1,0 +1,27 @@
+//Insertion Sorting technique
+#include <stdio.h>
+int main(){
+    int n,a[100],key;
+    printf("Enter the number of elements: ");
+    scanf("%d",&n);
+    printf("Enter the elements: \n");
+    for(int i=0;i<n;i++){
+        scanf("%d",&a[i]);
+    }
+    //Insertion sort
+    for(int i=1;i<n;i++){
+        key=a[i];
+        int j=i-1;
+        while(j>=0 && a[j]>key){
+            a[j+1]=a[j];
+            j=j-1;
+        }
+        a[j+1]=key;
+    }
+    
+    printf("The sorted array is: \n");
+    for(int i=0;i<n;i++){
+        printf("%d ",a[i]);
+    }
+    return 0;
+}
