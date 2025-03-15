@@ -58,6 +58,6 @@ This repository is open-source and follows the **MIT License**.
 ---
 🔗 **Connect with Me**  
 📧 Email: codingjourney18@gmail.com  
-🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-📷 Instagram: [@yourhandle](https://instagram.com/yourhandle)
+🐦 Twitter: [@AnkitTalukder](https://twitter.com/AnkitTalukder)  
+📷 Instagram: [@sadubaba_2061](https://instagram.com/sadubaba_2061)
 
