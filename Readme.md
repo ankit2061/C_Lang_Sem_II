@@ -12,6 +12,7 @@ The repository is organized as follows:
 ├── 📂 Assignment_3/          # Programs for Assignment 3
 ├── 📂 Assignment_4/          # Programs for Assignment 4
 ├── 📂 Assignment_5/          # Programs for Assignment 5
+├── 📂 Inclass_hw/            # Programs for personal testing and class hw
 └── README.md                # This file
 ```
 
