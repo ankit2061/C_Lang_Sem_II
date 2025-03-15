@@ -1,7 +1,7 @@
 //Insertion Sorting technique
 #include <stdio.h>
 int main(){
-    int n,a[100],key;
+    int n,a[100],key,i,j;
     printf("Enter the number of elements: ");
     scanf("%d",&n);
     printf("Enter the elements: \n");
@@ -9,9 +9,9 @@ int main(){
         scanf("%d",&a[i]);
     }
     //Insertion sort
-    for(int i=1;i<n;i++){
+    for(i=1;i<n;i++){
         key=a[i];
-        int j=i-1;
+        j=i-1;
         while(j>=0 && a[j]>key){
             a[j+1]=a[j];
             j=j-1;
