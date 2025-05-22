@@ -1,0 +1,5 @@
+Hello, Ankit!
+This is a test file.
+We are learning how to copy file content in C.
+File handling is a key concept in C programming.
+Good luck with your practice!

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <math.h>
 // Function to solve Tower of Hanoi problem
 void towerOfHanoi(int n, char source, char target, char auxiliary) {
     if (n == 1) {
@@ -26,7 +26,7 @@ int main() {
     towerOfHanoi(n, 'A', 'C', 'B');
     
     // Calculate and display the total number of moves
-    printf("\nTotal number of moves: %d\n", (1 << n) - 1); // 2^n - 1
+    printf("\nTotal number of moves: %.0f\n", pow(2, n) - 1); // 2^n - 1
     
     return 0;
 }
